@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - BestCars</title>
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+  <style>
+    body {
+      background-color: #f0f2f5;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .contact-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: #fff;
+      border-radius: 12px;
+      max-width: 1000px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-image {
+      flex: 1;
+      text-align: center;
+    }
+
+    .contact-image img {
+      width: 90%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    .contact-details {
+      flex: 1;
+      padding-left: 30px;
+    }
+
+    .contact-details h2 {
+      color: #009688;
+      margin-bottom: 20px;
+    }
+
+    .contact-item {
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .emoji {
+      margin-right: 10px;
+    }
+
+    .highlight-link a {
+      color: #009688;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .highlight-link a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .contact-wrapper {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .contact-details {
+        padding-left: 0;
+        margin-top: 20px;
+      }
+    }
+  </style>
+</head>
+<div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<body>
+
+<div class="container">
+  <div class="contact-wrapper">
+    <!-- Left Side: Image -->
+    <div class="contact-image">
+      <!-- <img src="https://images.unsplash.com/photo-1603398938378-e57c0c178444" alt="Customer Support"> -->
+       <img src="/static/contact.png" alt="Customer Support">
+
+    </div>
+
+    <!-- Right Side: Contact Info -->
+    <div class="contact-details">
+      <h2>Contact Us</h2>
+      <div class="contact-item">
+        <span class="emoji">📧</span> <strong>Customer Service:</strong> support@bestcars.com
+      </div>
+      <div class="contact-item">
+        <span class="emoji">📣</span> <strong>Advertising Team:</strong> NationalSales@bestcars.com
+      </div>
+      <div class="contact-item">
+        <span class="emoji">📰</span> <strong>Public Relations:</strong> PR@bestcars.com
+      </div>
+      <div class="contact-item">
+        <span class="emoji">📞</span> <strong>Main Office:</strong> 312-611-1111
+      </div>
+      <div class="contact-item highlight-link">
+        <span class="emoji">🚗</span> <strong>Become a Dealer:</strong> <a href="https://growwithbestcars.com" target="_blank">growwithbestcars.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
